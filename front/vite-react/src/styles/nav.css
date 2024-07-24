@@ -1,0 +1,25 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #238269;
+    z-index: 1000;
+    padding: 10px 20px; /* Espaciado interno */
+  }
+  
+.navbar-list {
+    list-style: none; /* Quita los puntos de lista */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Muestra los elementos en línea */
+}
+  
+.navbar-item {
+    margin-right: 10px; /* Espaciado entre elementos */
+}
+  
+.navbar-link {
+    color: #001e16; /* Color del texto */
+    text-decoration: none; /* Quita el subrayado */
+}
